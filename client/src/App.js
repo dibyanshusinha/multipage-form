@@ -10,7 +10,7 @@ import Dashboard from './pages/dashboard'
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/multipage-form">
         <div className="App">
           <header className="App-header">
             <nav>
